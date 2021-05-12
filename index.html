@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <style>
+        #typo {
+            height: 300px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            line-height: 300px;
+        }
+        
+        #typo.inner {
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>東京ホテル</h1>
+        </header>
+        <div class="banner"></div>
+        <div id="circle"></div>
+        <!--<div id='nav1'></div>バー
+    <div class="page-main">
+        <div id="typo">
+        <div class="inner">hoge</div>
+        </div>>
+    </div>
+    --->
+        <div class="page-main">
+            <ul>
+                <li>
+                    <a href="#tab5">会社情報</a>
+                </li>
+                <li>
+                    <a href="#tab6">受賞歴 </a>
+                </li>
+                <li>
+                    <a href="#tab7">宿泊約款 </a>
+                </li>
+                <li>
+                    <a href="#tab8">採用情報</a>
+                </li>
+                <li>
+                    <a href="#tab9">プライバシーポリシー</a>
+                    <!--- 隐私政策-->
+                </li>
+            </ul>
+            <button><img src="img/btn_open.png"></button>
+        </div>
+
+        <nav>
+            <ul id="navi">
+                <li><a href="#tab1">宿泊</a>
+                    <ul>
+                        <li><a href="#tab10">ラッキーボックス</a></li>
+                        <li><a href="#tab11">スイートルーム</a></li>
+                        <li><a href="#tab12">宿泊サービス</a></li>
+                    </ul>
+                </li>
+                <li><a href="#tab2">レストラン‐バー</a>
+                    <ul>
+                        <li><a href="#tab20">レストラン・ショップTOP</a></li>
+                        <li><a href="#tab21">日本料理 / 鉄板焼</a></li>
+                        <li><a href="#tab22">フランス料理 </a></li>
+                    </ul>
+                </li>
+                <li><a href="#tab3">宴会 会議</a>
+                    <ul>
+                        <li><a href="#tab30">ミーティング・パーティTOP</a></li>
+                        <li><a href="#tab31">宴会場 鳳凰</a></li>
+                        <li><a href="#tab32">宴会場 陽光</a></li>
+                    </ul>
+                </li>
+                <li><a href="#tab4">オンラインショップ</a>
+                    <ul>
+                        <li><a href="#tab40">商品リスト</a></li>
+                        <li><a href="#tab41">配送について</a></li>
+                      
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <p></p>
+            <div id="contents">
+                <div id="tab1">
+                    <p><strong>宿泊</strong></p>
+                    <ul class="photo">
+                        <li><img src="img/img05.jpg" alt="デラックスキング：：<br/>ホテル西側に位置する内堀通りに面し、客室はシンプルでありながら落ち着きと機能性を備えております。.">
+                        </li>
+                        <li><img src="img/img06.jpg" alt="スイートルーム WITH バルコニー:<br/> 客室は落ち着きと機能性を兼ね備えながらウォークインワードローブや広めのバスルームなど、ゆったり55㎡を確保.">
+                        </li>
+                        <li><img src="img/img07.jpg" alt="PALACE VIEW パレスビュー:<br/> 丸の内側でホテル中央付近に位置する客室。縦長窓の外には、開放感あふれる駅前広場と、皇居へと真っすぐ延びた行幸通りの景色。50㎡以上の広々とした客室タイプもご用意。">
+                        </li>
+                        <li><img src="img/img08.jpg" alt="JUNIOR SUITEジュニアスイート:<br/> 東京駅丸の内駅舎のほぼ中央にある客室。58㎡とゆとりのある空間で、奥にリビングエリアを設けています。広場から皇居へと続く美しい景色が目の前に広がります。.">
+                        </li>
+                        <li><img src="img/img09.jpg" alt="デラックスツイン・<br/>キング WITH バルコニー：<br/> 心地よい風を感じながら、水と緑に囲まれたロケーションで寛ぎのひとときをお過ごしください.">
+                        </li>
+                        <li><img src="img/img10.jpg" alt="グランドデラックスツイン:<br/>目の前に広がる木々の緑を楽しめるビューバスも完備、ゆとりと寛ぎのひとときをお過ごしいただけます.">
+                        </li>
+                    </ul>
+                    <div class="notice">
+                        <p>東京ホテル: 客室予約課 TEL: 03-3504-1251</p>
+                        <p>お知らせ</p>
+                    </div>
+
+                    <p>2020年7月23日（木・祝）から8月9日（日）のご宿泊予約に関するお知らせ（2020年4月2日現在）</p>
+
+                </div>
+                <div id="tab2">
+                    <p><strong>店舖のご案内</strong></p>
+                    <p id="first">◆営業時間:11:00～21:30 (ラストオーダー）</p>
+                    <p id="secon">◆席数：66席 （全席禁煙）</p>
+                    <p id="third">◆料金：3,520円～ ※消費税込、サービス料別。</p>
+                    <p id="fourth">◆駐車場：3,000円以上のご利用で2時間無料</p>
+
+                    <ul>
+                        <li class="five"><strong>フランス料理 レセゾン</strong></li>
+                        <li>フランス料理 ラブラスリー</li>
+                        <li><strong><span>鉄板焼</span></strong>嘉門 </li>
+                        <li>京料理 伊勢長 </li>
+                    </ul>
+                </div>
+
+                <div id="tab3">
+
+                    <h2 class="head2_02">緊急事態宣言による営業縮小について（2020年4月8日現在）</h2>
+
+                    <p>東京ホテルでは、緊急事態宣言の発令を受け、<span style="text-decoration: underline;">4月9日（木）～5月6日（水）</span>まで、館内の一部店舗を除く<br />レストラン、バーラウンジ、ホテルショップ「ガルガンチュワ」の営業を休止いたします。<br /> また、一部店舗を除くアーケード、東京ホテルプラザ内の店舗については、<span style="text-decoration: underline;">4月10日（金）～5月6日（水）</span>まで営業を休止いたします。<br
+                        /> <br /> ご宿泊に関しましては、新規の予約受付を制限させていただいております。<br /> <br /> なお、期間中はホテルの出入口を正面口と宴会口に限らせていただいております。<br /> <br /> お客さまには大変ご迷惑をおかけいたしますが、何卒ご理解賜りますようお願い申し上げます。</p>
+                    <p>　</p>
+                    <p>　</p>
+                    <p>◆レストランの営業時間は以下の通りです。</p>
+                    <table border="0">
+                        <tbody>
+                            <tr>
+
+                                <td>
+
+                                </td>
+                                <td>
+                                    <p>営業時間　7:00～20:00<br />朝食提供　7:00～11:30<br />昼食、夕食提供 11:30～20:00</p>
+                                    <p>※ご提供内容は、通常のレ セゾンのメニューとは異なりますので、詳しくは店舗にお問い合わせください。</p>
+                                    <p>※ご予約は承っておりません。予めご了承ください。</p>
+                                    <p align="right">TEL.03-3539-8087</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div id="tab4">
+
+                    <p><strong>ホテルショップ</strong></p>
+
+                    <figure>
+                        <a href="../img/img01.jpg"><img src="../img/img01.jpg" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li>
+                            <a href="img/img1.jpg"><img src="img/thumb1.jpg" alt="Photo1"></a>
+                        </li>
+                        <li>
+                            <a href="img/img2.jpg"><img src="img/thumb2.jpg" alt="Photo2"></a>
+                        </li>
+                        <li>
+                            <a href="img/img3.jpg"><img src="img/thumb3.jpg" alt="Photo3"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="tab10">
+                    <h2 class="head2_02">***ランダムに抽出した「ラッキーボックス」ホテルの写真!!!</h2>
+                    <img src="" alt="">
+
+                </div>
+
+                <div id="tab12">
+                    <h2 class="head2_02">宿泊サービス</h2>
+
+                    <h3>基本設備</h3>
+                        <ul>
+                        <li>ミニバー</li>
+                        <li>ウォークインクローゼット</li>
+                        <li>ミネラルウォーター</li>
+                        <li>コーヒー・紅茶</li>
+                        <li>朝刊無料サービス</li>
+                        <li>靴磨き</li>
+                        <li>ターンダウンサービス</li>
+                        <li>ルームサービス (24時間)</li>
+                        </ul>
+                    </br>
+                        <h3>アメニティ</h3>
+                        <ul>
+                        <li>客室内にネスプレッソマシン完備</li>
+                        <li>今治タオルのバスリネン</li>
+                        <li>アンヌセモナンのバスアメニティ</li>
+                        <li>バスローブ、スリッパ</li>
+                        <li>ナイトガウン</li>
+                        <li>ドライヤー</li>
+                        <li>湯沸かしポット</li>
+                        <li>PC充電対応型セーフティボックス</li>
+                        </ul>
+                    </br>
+
+                        <h3>テクノロジー</h3>
+                        <ul>
+                        <li>大型液晶テレビ (52インチ / ベッドルーム)</li>
+                        <li>カラー液晶防水テレビ (16インチ / バスルーム)</li>
+                        <li>M&#8217;s systemスピーカー</li>
+                        <li>ブルーレイ / DVD / CDプレーヤー</li>
+                        <li>BOSE社製 Bluetoothスピーカー</li>
+                        <li>多言語テレビ放送</li>
+                        <li>備え付けマルチアダプター</li>
+                        <li>液晶ディスプレイ付き多機能電話機</li>
+                        <li>インターネット無料接続 (LAN / 無線)</li>
+                        </ul>
+                    </br>
+                  </div>
+
+               <div id="tab11">
+                    <p><strong>スイートルーム</strong></p>
+
+                       
+                    <ul class="photo">
+                        <li><img src="img/img1201.jpg" alt="エグゼクティブスイート：<br/>【旅がもっと楽しくなる】会員の方だけの割引宿泊プラン登場！.">
+                        </li>
+                        <li><img src="img/img1202.jpg" alt=" ガーデンスイート:<br/>【メゾネットスペシャル】 ショートステイでお得。公式HP限定特典付き.">
+                        </li>
+                        <li><img src="img/img1203.jpg" alt="パークスイート:<br/>【歴史を感じるクラシックホテルの旅へ】クラシックホテルパスポート付き宿泊プラン。">
+                        </li>
+                        <li><img src="img/img1204.jpg" alt="テラススイート:<br/> 【ワンランク上の滞在が叶う】憧れのスイートルームステイ.">
+                        </li>
+                        </li>
+                    </ul>
+    
+
+                    <p><h3>基本設備</h3>
+                        <ul>
+                        <li>ミニバー</li>
+                        <li>ウォークインクローゼット</li>
+                        <li>洗面台2台</li>
+                        <li>ミネラルウォーター</li>
+                        <li>コーヒー・紅茶</li>
+                        <li>朝刊無料サービス</li>
+                        <li>靴磨き</li>
+                        <li>ターンダウンサービス</li>
+                        <li>ルームサービス (24時間)</li>
+                        </ul>
+                    </br>
+                        <h3>アメニティ</h3>
+                        <ul>
+                        <li>客室内にネスプレッソマシン完備</li>
+                        <li>今治タオルのバスリネン</li>
+                        <li>バンフォードのバスアメニティ</li>
+                        <li>バスローブ・スリッパ</li>
+                        <li>ナイトガウン</li>
+                        <li>ドライヤー</li>
+                      
+                        </ul>
+                    </br>
+                        <h3>テクノロジー</h3>
+                        <ul>
+                        <li>大型液晶テレビ(52インチ / ベッドルーム、リビングルーム)</li>
+                        <li>カラー液晶防水テレビ(16インチ / バスルーム)</li>
+                        <li>ブルーレイ / DVD / CDプレーヤー</li>
+                        <li>M&#8217;s systemスピーカー</li>
+                        <li>BANG &amp; OLUFSEN社製 Bluetoothスピーカー</li>
+                        <li>BOSE社製 Bluetoothスピーカー</li>
+                      
+                        </ul></p>
+                    
+                </div>
+
+                <div id="tab20">
+                    <p><strong>レストラン・ショップTOP</strong></p>
+                    <section class="mainVisual">
+                     
+                            <h1>Restaurant</br> レストラン</h1>
+                            <p>
+                                大切な人との語らいや、一人でほっとくつろぐ瞬間など
+                                さまざまなシチュエーション・目的に利用できる、10のレストラン・バー。<br>
+                                記憶に残るひとときをお過ごしください。
+                            </p>
+                       
+                        <img src="img/img20.jpg" width="980" height="500" alt="">
+                        			
+                    </section>
+                    
+                </div>
+
+                <div id="tab21">
+                    <p><strong>日本料理 / 鉄板焼</strong></p>
+                    
+                    <nav class="restaurant_menu">
+                        <img src="img/img2104.jpg" width="400" height="300" alt="">		
+                    <img src="img/img2101.jpg" width="440" height="300" alt="">	
+                        <h3>メニュー</h3>
+						
+        <hr />
+        &nbsp;<br />
+        ・ 前菜<br />
+        烏賊塩辛　小林牧場のカマンベールチーズの東寺揚げ<br />
+        手鞠寿司　黒毛和牛のローストビーフ<br />
+        絹かつぎ　丸十蜜煮<br />
+        &nbsp;<br />
+        ・ 焼物<br />
+        秋鮭葱味噌焼<br />
+        
+        菊花蕪甘酢漬け<br />
+        &nbsp;<br />
+        ・煮物<br />
+        漢方三元豚のすき煮 小鍋仕立て<br />
+        白菜　牛蒡　葱　エノキ　糸　蒟蒻　春菊　玉子<br />
+        &nbsp;<br />
+        ・  揚物<br />
+        鴨とエリンギのフライ<br />
+        自家製ソース グリーンマスタード<br />
+        &nbsp;<br />
+      
+        ドリンクメニュー<br />
+        【ビール】<br />
+        サントリープレミアムモルツ<br />
+        〈白ワイン〉　ポール･マス　クロード・ヴァル<br />
+        〈赤ワイン〉　ポール･マス　クロード・ヴァル<br />
+        【日本酒】<br />
+        日高見　超辛口純米(宮城県)／冷酒<br />
+        澤屋まつもと　純米(京都府)／燗酒<br />
+        【焼酎】<br />
+        大自然林(鹿児島)／芋焼酎  つくし(福岡県）／麦焼酎<br />
+        ＊飲み放題メニュー以外のお飲み物につきましては、30％引きでご提供できます。</p>
+                                    
+                             
+					</nav>
+                    
+                </div>
+
+                <div id="tab22">
+                    <p><strong>フランス料理 </strong></p>
+                    <img src="img/img2201.jpg" width="400" height="300" alt="">		
+                    <img src="img/img2203.jpg" width="440" height="300" alt="">	
+                    <p>フランス料理界の巨匠、アラン・デュカス氏が設立したデュカス・パリをパートナーに迎えた「エステール」。<br />
+                        フランス料理に忠実でありつつ、日本の大地と海の恵みを存分に活かすことで生まれた、ヘルシーでコンテンポラリーなメニューの数々を、ご賞味いただけます。</p>
+
+                        <p><strong>レストランのご利用</strong><br />
+                        ご予約のキャンセルは営業開始時間前までにご連絡をお願いいたします。<br />
+                        次の場合、キャンセル料を申し受けます。<br />
+                        ・ ご連絡のない場合<br />
+                        ・ 営業開始後のご連絡<br />
+                        ・ 予約時間30分経過してご来店のない場合 (キャンセル扱い)</p>
+                        <p><strong>個室のご利用</strong><br />
+                        ご予約のキャンセルは前日営業時間内までにお願いいたします。<br />
+                        次の場合、キャンセル料を申し受けます。<br />
+                        ・ ご予約日当日のキャンセル</p>
+                </div>
+
+                <div id="tab30">
+                   
+                    <section class="mainVisual">
+                     
+                        <h1>BANQUETS <br /> </h1>
+                        <h2>ミーティング・パーティ</h2>
+                        <p>
+                            駅舎の中という理想的なロケーションに、先進性を兼ね備えた3つの宴会場を用意。最新鋭の音響と映像設備を駆使し、<br />プライベートパーティからセミナー、>ミーティングまで、さまざまなスタイルのご宴席をコーディネートいたします。
+                   
+                    <img src="img/img3303.jpg" width="980" height="500" alt="">
+                                
+                </section>
+                
+                    
+                    
+                </div>
+
+                <div id="tab31">
+                    <p><strong>宴会場 鳳凰</strong></p>
+
+                    
+                    <img src="img/img3301.jpg" width="400" height="300" alt="">		
+                    <img src="img/img3302.jpg" width="440" height="300" alt="">	
+                    <p>2階の西側に位置した「鳳凰」は内堀通りに面した窓を有しています。
+
+                        二分割使用が可能であるため、様々な規模の会議やパーティーのほか、大宴会場「鳳凰」での大規模な宴会の控室としてもご利用いただけます。</p>
+
+                        <p><strong>宴会場のご利用</strong><br />
+                            階数:2階。最大人数:210。最大面積:198 m² / 2,131 ft²
+
+                            ・レイアウトオプション：<br />
+                            ・正餐<br />
+                            ・立食<br />
+                            ・スクール<br />
+                            ・シアター<br />
+                           </p>
+                        <p><strong>個室のご利用</strong><br />
+                        ご予約のキャンセルは前日営業時間内までにお願いいたします。<br />
+                        次の場合、キャンセル料を申し受けます。<br />
+                        ・ ご予約日当日のキャンセル</p>
+                </div>
+                
+                <div id="tab32">
+
+                    <p><strong> 宴会場 陽光</strong></p>
+                    <p>美しいシャンデリアと壁面のミラーモチーフが印象的なメインバンケットルーム。
+                        アースカラーで統一された優雅な空間は、どんな催しにもフィットします。
+                        鮮やかな映像の高輝度レーザー光源プロジェクターや、迫力の音響設備を備え、用途によりさまざまな演出が可能です。
+                    </p>
+                    
+                    <img src="img/img3304.jpg" width="980" height="500" alt="">		
+                  
+                    
+                    
+                    
+                </div>
+
+                <div id="tab40">
+                    <img src="img/img4401.jpg" width="400" height="300" alt="">		
+                    <img src="img/img4402.jpg" width="440" height="300" alt="">
+                    <p><strong>商品リスト</strong></p>
+                    <table>
+                        
+                        <h2><caption>商品一覧</caption></h2>
+                        <tr>
+                            <th>0~1,000円</th>
+                            <td>スイーツセレクション，フィナンシェボックス（小）
+                                5個入</td>
+                        </tr>
+                        <tr>
+                            <th>1,000円-2,000円</th>
+                            <td>パウンドケーキ，フィナンシェボックス（大）
+                                10個入</td>
+                        </tr>
+                        <tr>
+                            <th>2,000円-3,000円</th>
+                            <td>マロングラッセ　6個入，松屋東京丸ノ内限定 瓦煎餅 6枚入</td>
+                        </tr>
+                        <tr>
+                            <th>3,000円-4,000円</th>
+                            <td>オリジナルフレーバーティー
+                                タイムレスエレガンス／エバーラスティングストーリー</td>
+                        </tr>
+                    </table> 
+                    
+                    
+                </div>
+
+                <div id="tab41">
+                    <p><strong>配送について</strong></p>
+                  
+                            <p class="tag">・到着日時</p>
+                            <p class="txt">配送日指定はご注文日を含め8日後からとなります。特にご指定がない場合は、配送準備が整い次第、順次発送いたします。<br>  </p>
+                
+                            <p class="tag">・配送会社</p>
+                            <p class="txt">ヤマト運輸の宅急便でのお届けとなります。(常温便、クール便(冷凍)、クール便(冷蔵)のいずれかの発送)<br>また、<SPAN CLASS="red">食品以外の商品と食品商品、常温便・クール便(冷凍)・クール便(冷蔵)は同梱できないため、商品のお届けは別便となりますので予めご了承ください。</SPAN></p>
+                
+                            <p class="tag">・配達可能地域</p>
+                            <p class="txt">ヤマト運輸の宅急便配達地域であれば、日本全国に配達可能です。(日本国外には配達できません)<br><SPAN CLASS="red">※クール便は伊豆諸島(大島・八丈島を除く)及び小笠原村(小笠原諸島)へのお取り扱いはいたしておりません。</SPAN></p>
+                
+                            <p class="tag">・送料について</p>
+                            <p class="txt">配送先1件、商品内容別(常温便(食品以外)、常温便(食品)、クール便(冷凍)、クール便(冷蔵))にそれぞれ送料が発生します。</p>
+                         
+                        
+                </div>
+
+                
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
